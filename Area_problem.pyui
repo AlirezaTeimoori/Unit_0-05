@@ -1,0 +1,87 @@
+[
+  {
+    "selected" : false,
+    "frame" : "{{0, 0}, {480, 320}}",
+    "class" : "View",
+    "nodes" : [
+      {
+        "selected" : false,
+        "frame" : "{{45, 27}, {389, 107}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "font_name" : "AmericanTypewriter-CondensedBold",
+          "frame" : "{{165, 144}, {150, 32}}",
+          "uuid" : "F4C90797-5571-4262-94C2-5A11C0427395",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "What is the perimeter and area of a rectangle with length 5 cm and width 2cm?",
+          "name" : "problem_lable",
+          "font_size" : 18
+        }
+      },
+      {
+        "selected" : true,
+        "frame" : "{{187, 161}, {104, 32}}",
+        "class" : "Button",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "action" : "show_answer",
+          "frame" : "{{200, 144}, {80, 32}}",
+          "title" : "Answer",
+          "uuid" : "568ED335-9B4B-4BE7-85F9-4DDA1834831D",
+          "class" : "Button",
+          "name" : "answer_button",
+          "font_size" : 24
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{45, 201}, {309, 32}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "font_name" : "AnonymousPro-Bold",
+          "frame" : "{{165, 144}, {150, 32}}",
+          "uuid" : "21018D5A-A095-4116-934F-F7C6E1A506E4",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "",
+          "name" : "area_lable",
+          "font_size" : 20
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{45, 241}, {309, 32}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "font_name" : "AnonymousPro-Bold",
+          "frame" : "{{165, 144}, {150, 32}}",
+          "uuid" : "3CA55105-0DB4-4C87-B525-995310F0C6B5",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "",
+          "name" : "perimeter_lable",
+          "font_size" : 20
+        }
+      }
+    ],
+    "attributes" : {
+      "enabled" : true,
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    }
+  }
+]
